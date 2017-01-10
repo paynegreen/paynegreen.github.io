@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+.solid-violet, #solid-violet{ background:#5435ad; }
+.solid-green, #solid-green { background:#008d00; }
+.solid-cyan, #solid-cyan { background:#0099ab; }
+.solid-red, #solid-red { background:#af193f; }
+.solid-orange, #solid-orange { background:#da552c; }
+
+.shattered, #shattered { background:url(../img/backgrounds/shattered.png) repeat; }
+.a60degree_gray, #a60degree_gray { background:url(../img/backgrounds/60degree_gray.png) repeat; }
+.bgnoise_lg, #bgnoise_lg { background:url(../img/backgrounds/bgnoise_lg.png) repeat; }
+.bright_squares, #bright_squares { background:url(../img/backgrounds/bright_squares.png) repeat; }
+.wavecut, #wavecut { background:url(../img/backgrounds/wavecut.png) repeat; }
+.vichy, #vichy { background:url(../img/backgrounds/vichy.png) repeat; }
+.cubes, #cubes { background:url(../img/backgrounds/cubes.png) repeat; }
+.debut_dark, #debut_dark { background:url(../img/backgrounds/debut_dark.png) repeat; }
+.fancy_deboss, #fancy_deboss { background:url(../img/backgrounds/fancy_deboss.png) repeat; }
+.grunge_wall, #grunge_wall { background:url(../img/backgrounds/grunge_wall.png) repeat; }
+.light_honeycomb, #light_honeycomb { background:url(../img/backgrounds/light_honeycomb.png) repeat; }
+.noise_pattern_with_crosslines, #noise_pattern_with_crosslines { background:url(../img/backgrounds/noise_pattern_with_crosslines.png) repeat; }
+.paven, #paven { background:url(../img/backgrounds/paven.png) repeat; }
+.roughcloth, #roughcloth { background:url(../img/backgrounds/roughcloth.png) repeat; }
+.silver_scales, #silver_scales { background:url(../img/backgrounds/silver_scales.png) repeat; }
+.smooth_wall, #smooth_wall { background:url(../img/backgrounds/smooth_wall.png) repeat; }
+.soft_circle_scales, #soft_circle_scales { background:url(../img/backgrounds/soft_circle_scales.png) repeat; }
+.soft_wallpaper, #soft_wallpaper { background:url(../img/backgrounds/soft_wallpaper.png) repeat; }
+.subtle_freckles, #subtle_freckles { background:url(../img/backgrounds/subtle_freckles.png) repeat; }
+.washi, #washi { background:url(../img/backgrounds/washi.png) repeat; }
+.circles, #circles { background:url(../img/backgrounds/circles.png) repeat; }
+.white_carbon, #white_carbon { background:url(../img/backgrounds/white_carbon.png) repeat; }
+.whitey, #whitey { background:url(../img/backgrounds/whitey.png) repeat; }
+.concrete_wall_2, #concrete_wall_2 { background:url(../img/backgrounds/concrete_wall_2.png) repeat; }
+.xv, #xv { background:url(../img/backgrounds/xv.png) repeat; }
+.wood1, #wood1 { background:url(../img/backgrounds/wood1.jpg) repeat; }
+
+.black_denim, #black_denim { background:url(../img/backgrounds/black_denim.png) repeat; }
+.black_linen_v2, #black_linen_v2 { background:url(../img/backgrounds/black_linen_v2.png) repeat; }
+.black-Linen, #black-Linen { background:url(../img/backgrounds/black-Linen.png) repeat; }
+.dark_wood, #dark_wood { background:url(../img/backgrounds/dark_wood.png) repeat; }
+
+.random_grey_variations, #random_grey_variations { background:url(../img/backgrounds/random_grey_variations.png) repeat; }
+.tactile_noise, #tactile_noise { background:url(../img/backgrounds/tactile_noise.png) repeat; }
+.wood_1, #wood_1 { background:url(../img/backgrounds/wood_1.png) repeat; }
+.wood_pattern, #wood_pattern { background:url(../img/backgrounds/wood_pattern.png) repeat; }
+
+.blured-orange, #blured-orange { background:url(../img/backgrounds/blured-orange.jpg) no-repeat; background-size:cover; }
+.diamond_upholstery, #diamond_upholstery { background:url(../img/backgrounds/diamond_upholstery.jpg) no-repeat; background-attachment:fixed; background-size: 100% 100%; }
+.blurred-lime, #blurred-lime { background:url(../img/backgrounds/blurred-lime.jpg) no-repeat; background-attachment:fixed; background-size:cover; }
+.blurred-violet, #blurred-violet { background:url(../img/backgrounds/blurred-violet.jpg) no-repeat; background-attachment:fixed; background-size:cover; }
+.blurred-sky, #blurred-sky { background:url(../img/backgrounds/blurred-sky.jpg) no-repeat; background-attachment:fixed; background-size:cover; }
+.blurred-gold, #blurred-gold { background:url(../img/backgrounds/blurred-gold.jpg) no-repeat; background-attachment:fixed; background-size:cover; }
+.blurred-grey, #blurred-grey { background:url(../img/backgrounds/blurred-grey.jpg) no-repeat; background-attachment:fixed; background-size:cover; }
+.blurred-pink, #blurred-pink { background:url(../img/backgrounds/blurred-pink.jpg) no-repeat; background-attachment:fixed; background-size:cover; }
+.blurred-skin, #blurred-skin { background:url(../img/backgrounds/blurred-skin.jpg) no-repeat; background-attachment:fixed; background-size:cover; }
+
+
+
+
+
+/* Shadow */
+#toggle { 
+	position:absolute;
+	top:65px;
+	left:0;
+	display:block;
+	background:url(../img/settings-toggle.png) no-repeat;
+	width:47px;
+	height:77px;
+	cursor:pointer;
+	margin:0;
+	z-index:999999999999999;
+}
+#demo-settings {
+	position:absolute;
+	top:20px;
+	left:-270px;
+	z-index:999;
+	padding:20px 20px 20px 30px;
+	width:270px;
+	background:#e1e1e0;
+	display:none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#demo-settings .change,
+#demo-settings .shadow {
+	float:left;
+	display:block;
+	width:40px;
+	height:40px;
+	margin:0 3px 10px 0;
+	text-decoration:none;
+	cursor:pointer;
+}
+#demo-settings span.active { 
+	border:1px solid #000; 
+}
+
+#demo-settings h2 {
+	font-weight:normal;
+	font-size:16px;
+	margin:0 0 4px 0;
+	text-transform: uppercase;
+}
+#demo-settings a { text-decoration:none; }
+#demo-settings .puchase { margin:0 10px 0 12px; }
+.hr { 
+	margin:0 0 10px 0;
+	height:1px;
+	border-bottom:1px solid #bababa;
+	clear:both;
+}
+.puchase-button,
+.tour-button {
+	display:block;
+	height:29px;
+	float:left;
+	margin:6px 0 12px 0;
+}
+.puchase-button { 
+	margin: 10px auto 20px auto;
+	display: block;
+	width: 100%;
+	padding: 10px 0 0 0;
+	line-height: 13px;
+	background: #765939;
+	color: #fff;
+	text-shadow: none;
+	font-family: arial;
+	font-size: 13px;
+}
+
+.puchase-button:hover,
+.tour-button:hover { 
+	background:#674e32;
+	color:#fff;
+ }
+
+
+/* Smartphone (Horizontal) */
+@media only screen and (max-width: 727px) {
+	#toggle,
+	#demo-settings { display:none; }
+}
